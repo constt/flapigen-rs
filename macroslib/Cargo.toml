@@ -21,7 +21,7 @@ lazy_static = "1.0.2"
 smallvec = "1.1.0"
 rustc-hash = "1.0.1"
 smol_str = "0.2.0"
-strum = { version = "0.24.0", default-features = false, features = ["derive"] }
+strum = { git = "https://github.com/constt/strum.git", branch = "master",  default-features = false, features = ["derive"] }
 heck = { version = "0.4.0", default-features = false }
 which = { version = "4.2.4", default-features = false }
 
